@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio 4 anggota</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 1rem;
+    }
+    .card-content h3 {
+      margin: 0 0 0.5rem;
+      color: #2575fc;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      background: #222;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="container">Portofolio Tim 4 Anggota</h1>
+    <p>Rizwan Nur Rahman, Eka Ramadhani, Nouval, Fahrurazi Akbar</p>
+	<p>Menampilkan 5 hasil karya terbaik</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <img src="image/id card.jpg" alt="Karya 1">
+      <div class="card-content">
+        <h3>Smart ID Card</h3>
+        <p>Kartu pintar untuk absensi di sekolah menjadi lebih  mudah dan praktis (guru pembimbing: Bapa Ajis).</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image/lampu.jpg" alt="Karya 2">
+      <div class="card-content">
+        <h3>Lampu Otomatis</h3>
+        <p>Lampu pintar yang bisa di nyalakan/di hidupkan lewat smartphone atau lewat tepuk tangan (guru pembimbing: Bapa Ajis).</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image/kipas.jpg" alt="Karya 3">
+      <div class="card-content">
+        <h3>Kipas otomatis</h3>
+        <p>Kipas pintar yang bisa di nyalakan/di hidupkan lewat smartphone atau lewat tepuk tangan (guru pembimbing: Bapa Ajis).</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image/promosi.jpg" alt="Karya 4">
+      <div class="card-content">
+        <h3>Website Promosi</h3>
+        <p>Website Promosi adalah situs untuk mengenalkan produk atau jasa dan menarik pelanggan (guru pembimbing: Ibu Ylida).</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image/portofolio.jpg" alt="Karya 5">
+      <div class="card-content">
+        <h3>Website Portofolio</h3>
+        <p>Website Portofolio adalah situs untuk menampilkan karya dan keahlian (guru pembimbing: Bapa Suci Kurniawan).</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 4 Anggota | Portofolio</p>
+  </footer>
+</body>
+</html>
